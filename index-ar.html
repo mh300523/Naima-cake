@@ -1,0 +1,594 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<!-- for internet explorere -->
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<!--(the most important line) for mobile first -->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+        <link rel="icon" type="image/png" href="images/favicon.png">
+		<title>Naima Cake</title>
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/bootstrap-rtl.min.css">
+		<link rel="stylesheet" href="css/swiper-bundle.css">
+		<link rel="stylesheet" href="css/all.min.css">
+		<link rel="stylesheet" href="css/linear.css">
+		<link rel="stylesheet" href="css/animate.css">
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/style-ar.css">
+		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		<!--[if lt IE 9]>-->
+		<script src="js/html5shiv.min.js"></script>
+		<script src="js/respond.min.js"></script>
+        <script src="js/jquery-2.2.1.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/swiper-bundle.js"></script>
+		<script src="js/plug.js"></script>
+	</head>
+	<body>
+         <!-- Start preloader -->
+        <div class="pre-loader">
+          <div class="content"><img src="images/logo.png" alt="logo" />
+              <div class="progress-bar"><span class="bar"><span class="progress"></span></span></div>
+          </div>
+        </div>
+         <!-- End preloader -->
+        <div class="over_click"></div>
+	        <!--------------- start header ---------------->
+        <header>
+            <div class="top_nav">
+                <div class="container">
+                    <div class="top_bar">
+                        <div class="t_lang lg dropdown">
+                          <a href="index-ar.html" class="dropdown-toggle tl_anc tl_ar" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                            العربية <span><i class="fas fa-caret-down"></i></span>
+                          </a>
+                          <ul class="dropdown-menu sam_menu">
+                            <li>
+                                <a href="index.html" class="tl_en">
+                                   English 
+                                </a>
+                            </li>
+                          </ul>
+                        </div> 
+                        
+                        <div class="t_recomend">
+                            <ul class="list-unstyled list-inline tr_abco">
+                                <li><a href="#">من نحن</a></li>
+                                <li><a href="#">اتصل بنا</a></li>
+                            </ul>
+                            <div class="tr_myaccount lg dropdown">
+                                <a class="re_btn dropdown-toggle" href="#" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                                    <span><i class="fas fa-user"></i></span> حسابي 
+                                </a>
+                                <ul class="dropdown-menu sam_menu">
+                                    <li><a href="#"> تسجيل الدخول  </a></li>
+                                    <li><a href="#"> تسجيل جديد </a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="down_nav">
+                <div class="container">
+                    <div class="down_bar">
+                        <div class="logo">
+                            <a href="#"><img class="img-responsive" src="images/logo.png" alt="logo"></a>
+                        </div>
+                        <div class="mal_sesh">
+                            <div class="main_nav">
+                                <ul class="nav_bar list-unstyled list-inline">
+                                   <span href="#" class="lnr lnr-cross closebtn"></span>
+                                    <li><a href="#">الرئيسية</a></li>
+                                    <li><a href="#">وصل حديثا</a></li>
+                                    <li><a href="#">الكيك</a></li>
+                                    <li><a href="#">الزهور</a></li>
+                                    <li><a href="#">الهدايا</a></li>
+                                    <li><a href="#">بالونات</a></li>
+                                </ul>
+                            </div>
+                            <div class="search_cart">
+                                <div class="h_srh">
+                                    <a href="#" class="src_car" data-toggle="modal" data-target=".bs-example-modal-sm">
+                                        <i class="fas fa-search"></i>
+                                    </a>
+                                </div>
+                                <div class="h_shoplist">
+                                    <a href="#" class="src_car">
+                                        <i class="fas fa-shopping-basket"></i>
+                                        <span>0</span>
+                                    </a>
+                                </div>
+                                <div class="mob_navbtn">
+                                    <button id="navbtn">
+                                        <i class="fas fa-bars"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+	        
+	        
+	        <!--------------- end header ---------------->
+	        
+       <!--------------- start search modal ---------------->
+        <div class="modal fade bs-example-modal-sm over_mod" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true" class="lnr lnr-cross"></span>
+            </button>
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="searchbox">
+                        <input class="searchinput" id="search" placeholder="كلمة البحث" type="search">
+                        <span class="changed"></span>
+                        <button class="search_icon"type="submit"><span class="lnr lnr-magnifier"></span></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--------------- end search modal ---------------->
+	      
+	      
+         <!-- Start Main Slider -->
+        <section class="main_slider_sec">
+            <div class="main_slider">
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide">
+                        <a href="#" class="main-slide">
+                          <img src="images/slider.jpg" class="img-fluid">
+                        </a>
+                      </div>
+                      <div class="swiper-slide">
+                        <a href="#" class="main-slide">
+                          <img src="images/slider.jpg" class="img-fluid">
+                        </a>
+                      </div>
+                      <div class="swiper-slide">
+                        <a href="#" class="main-slide">
+                          <img src="images/slider.jpg" class="img-fluid">
+                        </a>
+                      </div>
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+              </div>
+            </div>
+        </section>
+	      <!-- end Main Slider -->
+	      
+	     <!-- start categories -->
+	     <section class="our_catgs">
+	         <div class="container">
+	             <div class="catgs_row">
+	                 
+	                     <div class="catgk_cont">
+                             <img src="images/c1.jpg" class="img-responsive catgkc_img" alt="category">
+                             <a class="catgkc_anc" href="#">بالونات</a>
+                         </div>
+	            
+	              
+                         <div class="catgk_cont">
+                             <img src="images/c2.jpg" class="img-responsive catgkc_img" alt="category">
+                             <a class="catgkc_anc" href="#">الهدايا</a>
+                         </div>
+                  
+                
+                         <div class="catgk_cont">
+                             <img src="images/c3.jpg" class="img-responsive catgkc_img" alt="category">
+                             <a class="catgkc_anc" href="#">الزهور</a>
+                         </div>
+                 
+                         <div class="catgk_cont">
+                             <img src="images/c4.jpg" class="img-responsive catgkc_img" alt="category">
+                             <a class="catgkc_anc" href="#">الكيك</a>
+                         </div>
+                   
+	             </div>
+	         </div>
+	     </section>
+	     <!-- end categories -->
+	     
+	     
+	     <!-- end new arrival -->
+	     <section class="our_arrivals">
+	         <div class="container">
+                 <h3 class="prods_title"><span>وصل حديثا</span></h3>
+	             <div class="arrivals_row">
+	          
+	                     <div class="pro_cont">
+	                         <div class="pro_img">
+                                 <img src="images/p4.jpg" class="img-responsive" alt="product">
+	                             <a href="#" class="pro_heart"></a>
+	                         </div>
+	                         <ul class="pro_desc list-unstyled">
+	                             <li class="pro_name">
+                                     <a href="#">أعياد ميلاد</a>
+                                 </li>
+                                 <li class="pro_price">59 ريال</li>
+                                 <li class="pro_addcart">
+                                     <a href="#">أضف إلي السلة</a>
+                                 </li>
+	                         </ul>
+	                     </div>
+	                
+	             
+	                     <div class="pro_cont">
+	                         <div class="pro_img">
+                                 <img src="images/p3.jpg" class="img-responsive" alt="product">
+	                             <a href="#" class="pro_heart"></a>
+	                         </div>
+	                         <ul class="pro_desc list-unstyled">
+	                             <li class="pro_name">
+                                     <a href="#">حفلات الزفاف</a>
+                                 </li>
+                                 <li class="pro_price">599 ريال</li>
+                                 <li class="pro_addcart">
+                                     <a href="#">أضف إلي السلة</a>
+                                 </li>
+	                         </ul>
+	                     </div>
+	               
+	           
+	                     <div class="pro_cont">
+	                         <div class="pro_img">
+                                 <img src="images/p2.jpg" class="img-responsive" alt="product">
+	                             <a href="#" class="pro_heart"></a>
+	                         </div>
+	                         <ul class="pro_desc list-unstyled">
+	                             <li class="pro_name">
+                                     <a href="#">حفلات الزفاف</a>
+                                 </li>
+                                 <li class="pro_price">777 ريال</li>
+                                 <li class="pro_addcart">
+                                     <a href="#">أضف إلي السلة</a>
+                                 </li>
+	                         </ul>
+	                     </div>
+	               
+	            
+	                     <div class="pro_cont">
+	                         <div class="pro_img">
+                                 <img src="images/p1.jpg" class="img-responsive" alt="product">
+	                             <a href="#" class="pro_heart"></a>
+	                         </div>
+	                         <ul class="pro_desc list-unstyled">
+	                             <li class="pro_name">
+                                     <a href="#">اعياد ميلاد</a>
+                                 </li>
+                                 <li class="pro_price">59 ريال</li>
+                                 <li class="pro_addcart">
+                                     <a href="#">أضف إلي السلة</a>
+                                 </li>
+	                         </ul>
+	                     </div>
+	             
+	             
+	                     <div class="pro_cont">
+	                         <div class="pro_img">
+                                 <img src="images/p8.jpg" class="img-responsive" alt="product">
+	                             <a href="#" class="pro_heart"></a>
+	                         </div>
+	                         <ul class="pro_desc list-unstyled">
+	                             <li class="pro_name">
+                                     <a href="#">زهور بيضاء وبينك</a>
+                                 </li>
+                                 <li class="pro_price">59 ريال</li>
+                                 <li class="pro_addcart">
+                                     <a href="#">أضف إلي السلة</a>
+                                 </li>
+	                         </ul>
+	                     </div>
+	            
+	                 
+	                     <div class="pro_cont">
+	                         <div class="pro_img">
+                                 <img src="images/p7.jpg" class="img-responsive" alt="product">
+	                             <a href="#" class="pro_heart"></a>
+	                         </div>
+	                         <ul class="pro_desc list-unstyled">
+	                             <li class="pro_name">
+                                     <a href="#">بالونات بينك وبرتقالي</a>
+                                 </li>
+                                 <li class="pro_price">59 ريال</li>
+                                 <li class="pro_addcart">
+                                     <a href="#">أضف إلي السلة</a>
+                                 </li>
+	                         </ul>
+	                     </div>
+	                 
+	          
+	                     <div class="pro_cont">
+	                         <div class="pro_img">
+                                 <img src="images/p6.jpg" class="img-responsive" alt="product">
+	                             <a href="#" class="pro_heart"></a>
+	                         </div>
+	                         <ul class="pro_desc list-unstyled">
+	                             <li class="pro_name">
+                                     <a href="#">كب كيك ملون</a>
+                                 </li>
+                                 <li class="pro_price">59 ريال</li>
+                                 <li class="pro_addcart">
+                                     <a href="#">أضف إلي السلة</a>
+                                 </li>
+	                         </ul>
+	                     </div>
+	         
+	             
+	                     <div class="pro_cont">
+	                         <div class="pro_img">
+                                 <img src="images/p5.jpg" class="img-responsive" alt="product">
+	                             <a href="#" class="pro_heart"></a>
+	                         </div>
+	                         <ul class="pro_desc list-unstyled">
+	                             <li class="pro_name">
+                                     <a href="#">كب كيك </a>
+                                 </li>
+                                 <li class="pro_price">59 ريال</li>
+                                 <li class="pro_addcart">
+                                     <a href="#">أضف إلي السلة</a>
+                                 </li>
+	                         </ul>
+	                     </div>
+	                
+	             </div>
+	             <div class="vpro_more">
+	                 <a href="#">عرض المزيد</a>
+	             </div>
+	         </div>
+	     </section>
+	     <!-- end new arrival -->
+	     
+	     <!-- start big banner -->
+	     <section class="our_bigbans">
+	         <a href="#">
+	             <img src="images/banner.jpg" class="img-responsive" alt="banner">
+	         </a>
+	     </section>
+	     <!-- end big banner -->
+	     
+	     
+	     <!-- start bsetseller -->
+	     <section class="our_bestseller">
+	         <div class="container">
+                 <h3 class="prods_title"><span>الأكثر مبيعا</span></h3>
+	             <div class="pro_slider">
+                     <div class="swiper-container">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                  <div class="pro_cont">
+                                     <div class="pro_img">
+                                         <img src="images/p8.jpg" class="img-responsive" alt="product">
+                                         <a href="#" class="pro_heart"></a>
+                                     </div>
+                                     <ul class="pro_desc list-unstyled">
+                                         <li class="pro_name">
+                                             <a href="#">زهور بيضاء وبينك</a>
+                                         </li>
+                                         <li class="pro_price">159 ريال</li>
+                                         <li class="pro_addcart">
+                                             <a href="#">أضف إلي السلة</a>
+                                         </li>
+                                     </ul>
+                                 </div>
+                            </div>
+                            <div class="swiper-slide">
+                                  <div class="pro_cont">
+                                     <div class="pro_img">
+                                         <img src="images/p7.jpg" class="img-responsive" alt="product">
+                                         <a href="#" class="pro_heart"></a>
+                                     </div>
+                                     <ul class="pro_desc list-unstyled">
+                                         <li class="pro_name">
+                                             <a href="#">بالونات بينك وبرتقالي</a>
+                                         </li>
+                                         <li class="pro_price">59 ريال</li>
+                                         <li class="pro_addcart">
+                                             <a href="#">أضف إلي السلة</a>
+                                         </li>
+                                     </ul>
+                                 </div>
+                            </div>
+                            <div class="swiper-slide">
+                                  <div class="pro_cont">
+                                     <div class="pro_img">
+                                         <img src="images/p5.jpg" class="img-responsive" alt="product">
+                                         <a href="#" class="pro_heart"></a>
+                                     </div>
+                                     <ul class="pro_desc list-unstyled">
+                                         <li class="pro_name">
+                                             <a href="#">كب كيك </a>
+                                         </li>
+                                         <li class="pro_price">59 ريال</li>
+                                         <li class="pro_addcart">
+                                             <a href="#">أضف إلي السلة</a>
+                                         </li>
+                                     </ul>
+                                 </div>
+                            </div>
+                            <div class="swiper-slide">
+                                  <div class="pro_cont">
+                                     <div class="pro_img">
+                                         <img src="images/p4.jpg" class="img-responsive" alt="product">
+                                         <a href="#" class="pro_heart"></a>
+                                     </div>
+                                     <ul class="pro_desc list-unstyled">
+                                         <li class="pro_name">
+                                             <a href="#">اعياد ميلاد</a>
+                                         </li>
+                                         <li class="pro_price">59 ريال</li>
+                                         <li class="pro_addcart">
+                                             <a href="#">أضف إلي السلة</a>
+                                         </li>
+                                     </ul>
+                                 </div>
+                            </div>
+                         </div>
+                     </div>
+                     <div class="swiper-pagination"></div>
+                     <div class="swiper-button-prev"></div>
+                     <div class="swiper-button-next"></div>
+                 </div>
+	         </div>
+	     </section>
+	     <!-- end bsetseller -->
+	     
+	     
+	     
+	     
+	     <!-- start small banner -->
+	     <section class="our_smallbans">
+	         <div class="container">
+	             <div class="row">
+	                 <div class="col-md-4">
+	                     <div class="smban">
+	                         <a href="#">
+                                 <img src="images/ban1.jpg" class="img-responsive" alt="banner">
+                             </a>
+	                     </div>
+	                 </div>
+	                 <div class="col-md-4">
+	                     <div class="smban">
+	                         <a href="#">
+                                 <img src="images/ban2.jpg" class="img-responsive" alt="banner">
+                             </a>
+	                     </div>
+	                 </div>
+	                 <div class="col-md-4">
+	                     <div class="smban">
+	                         <a href="#">
+                                 <img src="images/ban3.jpg" class="img-responsive" alt="banner">
+                             </a>
+	                     </div>
+	                 </div>
+	             </div>
+	         </div>
+	     </section>
+	     <!-- end small banner -->
+	     
+	     
+	      <!-- start newsletter -->
+	      <section class="our_newsletter">
+              <img src="images/pattern.png" class="img_pattern" class="img-responsive">
+	          <div class="container">
+	              <div class="row">
+	                  <div class="col-lg-4 col-md-6 col-sm-12">
+	                      <div class="subscribe_cont">
+	                          <div class="subscribe_elipse"><i class="fas fa-envelope"></i></div>
+	                          <div class="subscribe_txt">
+	                              <span class="subscribe_btxt">انضم إلي القائمة البريديه</span>
+	                              <span class="subscribe_stxt">سجل بواسطة بريدك الالكتروني ليصلك كل جديد</span>
+	                          </div>
+	                      </div>
+	                  </div>
+	                  <div class="col-lg-4 col-md-6 col-sm-12">
+	                      <div class="form-group mail_cont">
+                            <input type="email" class="form-control ffmail_input" id="exampleInputEmail1" placeholder="ادخل بريدك الالكتروني">
+                            <button class="fm_check"><i class="fas fa-paper-plane"></i></button>
+                          </div>
+	                  </div>
+	                  <div class="col-lg-2 col-sm-6">
+                         <div class="nl_social">
+                             <a class="nls_cont" href="#">
+                                 <span class="nls_elipse"><i class="fab fa-instagram"></i></span>naimecake@
+                             </a> 
+                         </div>
+                      </div>
+                      <div class="col-lg-2 col-sm-6">
+                          <div class="nl_social">
+                             <a class="nls_cont" href="#">
+                                 <span class="nls_elipse"><i class="fab fa-facebook-square"></i></span>naimecake@
+                             </a> 
+                         </div>
+                      </div>
+	              </div>
+	          </div>
+	      </section>
+	       <!-- end newsletter -->
+	       
+	       
+	       <!-- start footer -->
+	       <footer>
+	           <div class="container">
+				    <div class="top_focont">
+				        <div class="row">
+                            <div class="col-md-4">
+                                <div class="logo">
+                                    <a href="#"><img class="img-responsive" src="images/flogo.png" alt="logo"></a>
+                                </div>
+                                <div class="about_na3">
+                                    كعكة فطيرة التفاح كعكة الزنجبيل الحلو رول بودنغ تتصدر المارشميلو.
+                                </div>
+                            </div>
+                            <div class="col-md-2">
+                                <div class="fast_links">
+                                    <h5 class="ff_title fsm_title" data-toggle="collapse" data-target="#id10" aria-expanded="false">معلومات</h5>
+                                    <ul class="list-unstyled collapse" id="id10">
+                                        <li><a href="#">من نحن </a></li>
+                                        <li><a href="#">معلومات التوصيل</a></li>
+                                        <li><a href="#">الخصوصية</a></li>
+                                        <li><a href="#">شروط الإستخدام</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="col-md-2">
+                                <div class="fast_links">
+                                    <h5 class="ff_title fsm_title" data-toggle="collapse" data-target="#id12" aria-expanded="false">خدمة العملاء</h5>
+                                    <ul class="list-unstyled collapse" id="id12">
+                                        <li><a href="#">اتصل بنا</a></li>
+                                        <li><a href="#">ارجاع الطلب</a></li>
+                                        <li><a href="#">خريطة الموقع</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="col-md-2">
+                                <div class="fast_links">
+                                    <h5 class="ff_title fsm_title" data-toggle="collapse" data-target="#id11" aria-expanded="false">اضافات</h5>
+                                    <ul class="list-unstyled collapse" id="id11">
+                                        <li><a href="#">الشركات</a></li>
+                                        <li><a href="#">قسائم الهدايا</a></li>
+                                        <li><a href="#">نظام العمولة</a></li>
+                                        <li><a href="#">العروض المميزة</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="col-md-2">
+                                <div class="fast_links">
+                                    <h5 class="ff_title fsm_title" data-toggle="collapse" data-target="#id9" aria-expanded="false">حسابي</h5>
+                                    <ul class="list-unstyled collapse" id="id9">
+                                        <li><a href="#">حسابي</a></li>
+                                        <li><a href="#">طلباتي</a></li>
+                                        <li><a href="#">قائمة رغباتي</a></li>
+                                        <li><a href="#">القائمة البريدية</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                       </div>
+				    </div>
+                    <div class="down_focont">
+                        <div class="ff_rghts">
+                      © جميع الحقوق محفوظة، متجر نعيمة كيك      
+                        </div>
+                        <div class="mad_in">  صنع في <a href="#"><img src="images/tasawk-c-ar.png"></a></div>
+                        <div class="ff_pay">
+                            <a href="#">
+                                <img src="images/pay.png">
+                            </a>
+                        </div>
+                    </div>
+               </div>
+	       </footer>
+	       
+	       <!-- end footer -->
+	     
+    </body>
+</html> 

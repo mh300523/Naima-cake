@@ -1,0 +1,214 @@
+body,
+html {
+   font-family: 'Tajawal';
+}
+.searchinput,.catgk_cont .catgkc_anc,.prods_title > span,.pro_desc .pro_addcart > a,.vpro_more > a,.pro_desc .pro_price,.subscribe_cont .subscribe_btxt,footer .ff_title
+{
+    font-family: 'Tajawal-Medium';
+}
+.tr_myaccount .re_btn > span
+{
+    margin-left: 3px;
+}
+.t_recomend .tr_abco > li:last-child
+{
+    margin-left: 6px;
+}
+.t_recomend .tr_myaccount
+{
+    margin-right: 20px;
+}
+.t_recomend .tr_myaccount:before
+{
+    right: 0;
+}
+header .nav_bar > li > a:before
+{
+    right: 4px;
+}
+.mal_sesh .search_cart
+{
+    margin-right: 18px;
+}
+.search_cart .h_shoplist .src_car > span
+{
+	left: -5px;
+}
+.search_cart .h_shoplist
+{
+    margin-right: 14px;
+}
+.changed
+{
+    right: 0;
+}
+.search_icon
+{
+    left: 28px;
+}
+.main_slider .swiper-button-next
+{
+    left: 41px;
+}
+.main_slider .swiper-button-prev
+{
+    right: 41px;
+}
+.main_slider .swiper-button-next:after,.pro_slider .swiper-button-next:after
+{
+    content: '\f104';
+}
+.main_slider .swiper-button-prev:after,.pro_slider .swiper-button-prev:after
+{
+    content: '\f105';
+}
+.main_slider .swiper-button-prev:before,.pro_slider .swiper-button-prev:before
+{
+    left: 0;
+    background-image: -moz-linear-gradient(to right,rgb(164,54,104) 0%, rgb(255,170,172) 100%);
+    background-image: -webkit-linear-gradient(to right,rgb(164,54,104) 0%, rgb(255,170,172) 100%);
+    background-image: -o-linear-gradient(to right,rgb(164,54,104) 0%, rgb(255,170,172) 100%);
+    background-image: linear-gradient(to right,rgb(164,54,104) 0%, rgb(255,170,172) 100%);
+}
+.main_slider .swiper-button-next:before,.pro_slider .swiper-button-next:before,.pro_cont .pro_img .pro_heart:before,.pro_desc .pro_addcart > a:before,.vpro_more > a:before,.mail_cont .fm_check:before,.nl_social .nls_elipse:before
+{
+    right: 0;
+    background-image: -moz-linear-gradient(to left,rgb(164,54,104) 0%, rgb(255,170,172) 100%);
+    background-image: -webkit-linear-gradient(to left,rgb(164,54,104) 0%, rgb(255,170,172) 100%);
+    background-image: -o-linear-gradient(to left,rgb(164,54,104) 0%, rgb(255,170,172) 100%);
+    background-image: linear-gradient(to left,rgb(164,54,104) 0%, rgb(255,170,172) 100%);
+}
+.pro_cont .pro_img .pro_heart
+{
+    left: 14px;
+}
+.prods_title > span:after
+{
+    left: -11px;
+}
+.prods_title > span:before
+{
+    right: -11px;
+}
+.pro_slider .swiper-button-next
+{
+    right: calc(100% + 50px);
+}
+.pro_slider .swiper-button-prev
+{
+    right: -85px
+}
+.mail_cont .fm_check
+{
+    left: 0;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+.nl_social .nls_elipse,.subscribe_elipse
+{
+    margin-left: 8px;
+}
+
+
+
+
+
+
+
+
+
+@media (min-width:992px) and (max-width:1199px)	
+{
+    header .nav_bar > li > a:before
+    {
+        right: 0px;
+    }
+    .pro_slider .swiper-button-next
+    {
+        right: calc(100% - 15px);
+    }
+    .pro_slider .swiper-button-prev
+    {
+        right: -20px;
+    }
+    .t_recomend .sam_menu
+    {
+        min-width: 96px;
+    }
+    .t_recomend .sam_menu > li
+    {
+        padding: 3px 8px;
+    }
+    .t_recomend .sam_menu > li > a
+    {
+        font-size: 10px;
+        padding: 0 3px;
+    }
+}
+
+@media (min-width:768px) and (max-width:991px)	
+{
+    header .nav_bar > li > a:before
+    {
+        right: 0px;
+    }
+}
+
+
+@media (max-width:991px)	
+{
+    footer .fast_links .fsm_title:after
+    {
+        left: 20px;
+    }
+    .t_recomend .sam_menu
+    {
+        min-width: 76px;
+    }
+    .t_recomend .sam_menu > li
+    {
+        padding: 3px 8px;
+    }
+    .t_recomend .sam_menu > li > a
+    {
+        font-size: 9px;
+        padding: 0 3px;
+    }
+}
+
+
+@media (max-width:767px)	
+{
+    .t_recomend .tr_myaccount
+    {
+        margin-right: 10px;
+    }
+    .search_cart .h_shoplist
+    {
+        margin-left: 16px;
+    }
+    .main_nav
+    {
+        right: 0;
+    }
+    .closebtn
+    {
+        left: 20px;
+    }
+    .subscribe_elipse
+    {
+        margin-left: 0;
+    }
+    .top_bar .t_lang> .sam_menu
+    {
+        min-width: 65px;
+    }
+    .t_lang .sam_menu > li
+    {
+        padding: 6px 5px;
+    }
+    .t_lang .sam_menu > li > a
+    {
+       padding: 0 9px;
+    }
+}
